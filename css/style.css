@@ -28,7 +28,7 @@ body {
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
-    
+    border-radius: 15px;
 }
 
 .navBar a {
@@ -49,24 +49,16 @@ body {
     font-weight: 700;
 }
 
-
+.main {
+    margin: auto;
+}
 
 /* ======= ABOUT PAGE ========= */
 
 
 
-.aboutP {
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: left;
-    font-family: monospace;
-    color: midnightblue;
-    font-size: larger;
-    font-weight: 700;
-}
-
-.aboutP img {
-    width: 375px;
+.pfp img{
+    width: 450px;
     height: 500px;
     margin-top: 7px;
     float: left;
@@ -74,8 +66,12 @@ body {
 }
 
 .aboutText {
+    text-align: left;
+    font-family: monospace;
+    color: midnightblue;
+    font-size: larger;
+    font-weight: 700;
     margin-left: 50%;
-    float:inline-end;
     background-color: rgb(245, 231, 233);
     border-radius: 15px;
     padding: 0px 7px;
@@ -87,6 +83,11 @@ body {
     margin-right: 20%;
     float: right;
     margin-top: -30px;
+}
+
+.aboutP {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 
